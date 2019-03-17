@@ -81,6 +81,17 @@ public class SinglyLinkedList<V> {
         }
     }
 
+    public SinglyLinkedList<V> copy(){
+        SinglyLinkedList copiedList = new SinglyLinkedList();
+        Node node = headNode;
+        for(int i = 0; i < size; i++){
+            copiedList.add(node.getValue());
+            node = node.getNextNode();
+        }
+        return copiedList;
+    }
+
+
 
     static class Node<V> {
         private V value;

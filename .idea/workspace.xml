@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0990c3d-133d-4296-b1d1-e3e88ed81744" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zipcodewilmington/singlylinkedlist/TestAdd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zipcodewilmington/singlylinkedlist/TestContains.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zipcodewilmington/singlylinkedlist/TestFind.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zipcodewilmington/singlylinkedlist/TestGet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zipcodewilmington/singlylinkedlist/TestRemove.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zipcodewilmington/singlylinkedlist/TestCopy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zipcodewilmington/singlylinkedlist/MainApplication.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/zipcodewilmington/singlylinkedlist/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zipcodewilmington/singlylinkedlist/SinglyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zipcodewilmington/singlylinkedlist/SinglyLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zipcodewilmington/singlylinkedlist/SinglyLinkedListTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zipcodewilmington/singlylinkedlist/SinglyLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="80" column="9" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="9" />
+            <state relative-caret-position="268">
+              <caret line="95" column="8" selection-start-line="95" selection-start-column="8" selection-end-line="95" selection-end-column="8" />
               <folding>
                 <element signature="e#216#217#0" expanded="true" />
                 <element signature="e#243#244#0" expanded="true" />
@@ -79,6 +66,19 @@
                 <element signature="e#1588#1589#0" expanded="true" />
                 <element signature="e#1878#1879#0" expanded="true" />
                 <element signature="e#1926#1927#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/zipcodewilmington/singlylinkedlist/TestCopy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#197#205#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -130,8 +130,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/zipcodewilmington/singlylinkedlist/TestGet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="124">
+              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="12" selection-end-column="75" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#252#260#0" expanded="true" />
@@ -163,6 +163,7 @@
         <option value="$PROJECT_DIR$/src/test/java/com/zipcodewilmington/singlylinkedlist/SinglyLinkedListTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/zipcodewilmington/singlylinkedlist/TestRemove.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zipcodewilmington/singlylinkedlist/SinglyLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/zipcodewilmington/singlylinkedlist/TestCopy.java" />
       </list>
     </option>
   </component>
@@ -243,7 +244,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552842306300" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552843735507" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -261,8 +262,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.com.zipcodewilmington.singlylinkedlist in singlylinkedlist">
-    <configuration name="TestGet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestCopy.testCopy1">
+    <configuration name="TestCopy.testCopy1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="singlylinkedlist" />
       <extension name="coverage">
         <pattern>
@@ -271,8 +272,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.zipcodewilmington.singlylinkedlist" />
-      <option name="MAIN_CLASS_NAME" value="com.zipcodewilmington.singlylinkedlist.TestGet" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="com.zipcodewilmington.singlylinkedlist.TestCopy" />
+      <option name="METHOD_NAME" value="testCopy1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -340,11 +342,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestCopy.testCopy1" />
         <item itemvalue="JUnit.com.zipcodewilmington.singlylinkedlist in singlylinkedlist" />
         <item itemvalue="JUnit.TestRemove.testRemove3" />
         <item itemvalue="JUnit.TestRemove" />
         <item itemvalue="JUnit.TestRemove.testRemove1" />
-        <item itemvalue="JUnit.TestGet" />
       </list>
     </recent_temporary>
   </component>
@@ -358,23 +360,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552747663702</updated>
-      <workItem from="1552747664997" duration="13460000" />
+      <workItem from="1552747664997" duration="14527000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="com_zipcodewilmington_singlylinkedlist_in_singlylinkedlist - 2019.03.17 at 11h 27m 56s.xml">
-      <configuration name="com.zipcodewilmington.singlylinkedlist in singlylinkedlist" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="com_zipcodewilmington_singlylinkedlist_in_singlylinkedlist - 2019.03.17 at 11h 28m 31s.xml">
-      <configuration name="com.zipcodewilmington.singlylinkedlist in singlylinkedlist" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="com_zipcodewilmington_singlylinkedlist_in_singlylinkedlist - 2019.03.17 at 11h 30m 27s.xml">
-      <configuration name="com.zipcodewilmington.singlylinkedlist in singlylinkedlist" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestFind_testFind - 2019.03.17 at 12h 15m 16s.xml">
-      <configuration name="TestFind.testFind" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="com_zipcodewilmington_singlylinkedlist_in_singlylinkedlist - 2019.03.17 at 12h 17m 29s.xml">
       <configuration name="com.zipcodewilmington.singlylinkedlist in singlylinkedlist" configurationId="JUnit" />
     </history-entry>
@@ -393,9 +383,21 @@
     <history-entry file="com_zipcodewilmington_singlylinkedlist_in_singlylinkedlist - 2019.03.17 at 13h 04m 34s.xml">
       <configuration name="com.zipcodewilmington.singlylinkedlist in singlylinkedlist" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestCopy_testCopy1 - 2019.03.17 at 13h 21m 23s.xml">
+      <configuration name="TestCopy.testCopy1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCopy_testCopy1 - 2019.03.17 at 13h 23m 10s.xml">
+      <configuration name="TestCopy.testCopy1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCopy_testCopy1 - 2019.03.17 at 13h 23m 41s.xml">
+      <configuration name="TestCopy.testCopy1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCopy_testCopy1 - 2019.03.17 at 13h 23m 52s.xml">
+      <configuration name="TestCopy.testCopy1" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13460000" />
+    <option name="totallyTimeSpent" value="14527000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="34" y="-745" width="1360" height="745" extended-state="6" />
@@ -408,7 +410,7 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21808511" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32872504" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32872504" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -416,7 +418,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32872504" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3640553" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3640553" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -499,18 +501,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/zipcodewilmington/singlylinkedlist/TestGet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#252#260#0" expanded="true" />
-            <element signature="e#790#798#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/zipcodewilmington/singlylinkedlist/TestFind.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="107">
@@ -536,10 +526,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zipcodewilmington/singlylinkedlist/TestGet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="12" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#252#260#0" expanded="true" />
+            <element signature="e#790#798#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zipcodewilmington/singlylinkedlist/SinglyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="80" column="9" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="9" />
+        <state relative-caret-position="268">
+          <caret line="95" column="8" selection-start-line="95" selection-start-column="8" selection-end-line="95" selection-end-column="8" />
           <folding>
             <element signature="e#216#217#0" expanded="true" />
             <element signature="e#243#244#0" expanded="true" />
@@ -549,6 +551,17 @@
             <element signature="e#1588#1589#0" expanded="true" />
             <element signature="e#1878#1879#0" expanded="true" />
             <element signature="e#1926#1927#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zipcodewilmington/singlylinkedlist/TestCopy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#197#205#0" expanded="true" />
           </folding>
         </state>
       </provider>
